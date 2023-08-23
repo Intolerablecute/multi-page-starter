@@ -24,11 +24,16 @@ const config: GatsbyConfig = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Training`, slug: `/training` },
-          { name: `About`, slug: `/about` },
           { name: 'Join Us', slug: '/join-us' },
-          { name: 'Membership', slug: '/membership' },
+          { name: `Swim`, slug: `/swim` },
+          { name: `Bike`, slug: `/bike` },
+          { name: `Run`, slug: `/run` },
+          { name: `Our Races`, slug: `/our-races` },
+          { name: `Club Kit`, slug: `/club-kit` },
+          { name: `Our Club`, slug: `/our-club` },
+          { name: `Club Partners`, slug: `/club-partners` },
+          { name: `FAQs`, slug: `/faqs` },
+          { name: `Contact Us`, slug: `/contact-us` },
         ],
       },
     },

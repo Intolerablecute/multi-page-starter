@@ -28,6 +28,7 @@ const config: GatsbyConfig = {
           { name: `Training`, slug: `/training` },
           { name: `About`, slug: `/about` },
           { name: 'Join Us', slug: '/join-us'},
+          { name: 'Membership', slug: '/membership'},
         ],
       },
     },

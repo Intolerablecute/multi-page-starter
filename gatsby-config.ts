@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.mjs
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
+    siteTitle: `E Triathletes`,
+    siteTitleAlt: `ET - Edinburgh's oldest club`,
+    siteHeadline: `ET - Swim | Bike | Run for all abilities`,
     siteUrl: `https://jodie.lekoarts.de`,
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    siteDescription: `A place for useful content`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `me`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -27,6 +27,7 @@ const config: GatsbyConfig = {
           { name: `Projects`, slug: `/projects` },
           { name: `Training`, slug: `/training` },
           { name: `About`, slug: `/about` },
+          { name: 'Join Us', slug: '/join-us'},
         ],
       },
     },

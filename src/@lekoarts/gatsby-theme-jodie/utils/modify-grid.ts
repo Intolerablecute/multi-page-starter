@@ -8,7 +8,7 @@ interface IGridItem {
       gatsbyImageData: IGatsbyImageData
     }
   }
-  __typename: "MdxProject" | "MdxPage"
+  __typename: "MdxPage"
 }
 
 const modifyGrid = (data: Array<IGridItem>): Array<IGridItem> => data
